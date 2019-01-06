@@ -1,3 +1,5 @@
+ruby '2.6.0'
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -35,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'watir'
+gem 'watir', '~> 6.16'
 gem 'pry-rails'
 
 group :development, :test do
